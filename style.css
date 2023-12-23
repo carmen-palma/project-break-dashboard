@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.project-container {
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#clock {
+    font-size: 2em;
+}
+
+#password {
+    font-family: monospace;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#links-list li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#weather-info {
+    margin-bottom: 20px;
+}
+
+#hourly-forecast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hourly-forecast-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyectos Integrados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="project-container">
+    <div id="clock"></div>
+    <div id="message"></div>
+</div>
+
+<div class="project-container">
+    <label for="password-length">Longitud de la contraseña:</label>
+    <input type="number" id="password-length" min="12" max="50">
+    <button id="generate-btn">Generar Contraseña</button>
+    <p id="password"></p>
+</div>
+
+<div class="project-container">
+    <input type="text" id="link-title" placeholder="Título del enlace">
+    <input type="text" id="link-url" placeholder="URL del enlace">
+    <button id="add-link-btn">Añadir enlace</button>
+    <ul id="links-list"></ul>
+</div>
+
+<div class="project-container">
+    <h2>Estación Meteorológica</h2>
+    <div id="weather-info"></div>
+    <div id="hourly-forecast"></div>
+</div>
+
+<script src="reloj.js"></script>
+<script src="generador-contraseña.js"></script>
+<script src="listado-links.js"></script>
+<script src="estacion-meteorologica.js"></script>
+</body>
+</html>
